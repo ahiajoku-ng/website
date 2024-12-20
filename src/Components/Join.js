@@ -14,7 +14,7 @@ function Join() {
                 <div style={{display: "grid"}} id='iconn'>
                     <span>
                         <i class="fa-solid fa-star"></i>
-                        <strong>Visibility:</strong>Showcase your brand to a large, diverse audience. 
+                        <strong>Visibility:</strong>Showcase your brand to a large, diverse audience.
                     </span>
                     <span>
                         <i class="fa-solid fa-star"></i>

@@ -28,7 +28,9 @@ function Home() {
   return (
     <div className='Home'>
         <Helmet>
-            <title>Home - Ahiajoku</title>
+          <meta name="description" content="This is the official website of Ahiajoku Convention Center in Owerri Imo State Nigeria, The Ahiajoku Center is owned by the Imo State government of Nigeria and serves as a prominent cultural and intellectual hub, celebrating and preserving the Igbo heritage."/>
+          <meta name="keywords" content="Ahiajoku, Igbo culture, Igbo heritage, yam festival, Imo State, education, tradition"/>
+          <title>Home - Ahiajoku</title>
         </Helmet>
         <div id='homehd'>
           <Nav/>

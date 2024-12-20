@@ -42,7 +42,12 @@ function Contact() {
   return (
     <div id='Contact'>
         <Helmet>
-            <title>Contact Us - Ahiajoku</title>
+          <meta
+            name="description"
+            content="Reachout to us and in no distant time, we will give you a detailed response."
+          />
+          <meta name="keywords" content="Ahiajoku, contact, Igbo culture, Igbo heritage, yam festival, Imo State, education, tradition"/>
+          <title>Contact Us - Ahiajoku</title>
         </Helmet>
         <Nav/>
         <div id='sponsform'>

@@ -41,6 +41,11 @@ function Participate() {
   return (
     <div id='Participate'>
         <Helmet>
+            <meta
+                name="description"
+                content="Become a part of what we're doing as you participate in the forth coming Ahiajoku events and activities so as we can collaboratively push the Igbo culture of the south-eastern part of Nigeria."
+            />
+            <meta name="keywords" content="join Ahiajoku, become an Ahiajoku tutor, Igbo culture, Igbo heritage, yam festival, Imo State, education, tradition"/>
             <title>Participate - Ahiajoku</title>
         </Helmet>
         <Nav/>

@@ -16,6 +16,11 @@ function NewYam() {
   return (
     <div className='NewYam'>
         <Helmet>
+            <meta
+                name="description"
+                content="Our rich and beautiful New Yam Festival which takes place at the Ahiajoku Center helps to display the culture of Ndi Igbo and it's heritage."
+            />
+            <meta name="keywords" content="yam festival, Ahiajoku yam festival, new yam festival, Igbo culture, Igbo heritage, Iri ji, Imo State, education, tradition"/>
             <title>New yam festival - Ahiajoku</title>
         </Helmet>
         <div id='newhd'>

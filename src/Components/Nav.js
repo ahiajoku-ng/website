@@ -9,7 +9,7 @@ function Nav() {
       <nav className="navbar navbar-expand-lg bg-transparent" style={{fontWeight: "700"}}>
         <div className="container-fluid">
           <span className="navbar-brand">
-            <a href="/">
+            <a href="/" aria-label="logo">
               <img id='navimg' alt='' src={logo}/>
             </a>
           </span>
@@ -27,11 +27,8 @@ function Nav() {
                 <li className="nav-item">
                   <a style={{color: (window.location.pathname == "/lectures" ? "#a58e31" : window.location.pathname == "/contact" ? "" : "")}} href="/lectures" className="nav-link" rel="noreferrer">Lectures</a>
                 </li>
-                {/* <li className="nav-item">
-                  <a href="/calculator" className="nav-link">Quotes</a>
-                </li> */}
                 <li className="nav-item">
-                  <a style={{color: (window.location.pathname == "/blog" ? "white" : window.location.pathname == "/contact" ? "black" : "")}} id='blog' href="/" target='_blank' className="nav-link">Blog</a>
+                  <a style={{color: (window.location.pathname == "/blog" ? "white" : window.location.pathname == "/contact" ? "black" : "")}} id='blog' href="https://blog.ahiajoku.im.gov.ng" aria-label="blog" target='_blank' rel='noreferrer' className="nav-link">Blog</a>
                 </li>
                 <li className="nav-item">
                   <a style={{color: (window.location.pathname == "/gallery" ? "#a58e31" : window.location.pathname == "/contact" ? "" : "")}} href="/gallery" className="nav-link" rel="noreferrer">Gallery</a>

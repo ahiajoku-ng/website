@@ -40,6 +40,11 @@ function Sponsor() {
   return (
     <div id='sponsor'>
         <Helmet>
+          <meta
+            name="description"
+            content="Become a part of what we're doing as you can take part sponsoring some of the forth coming Ahiajoku events and activities so as we can collaboratively push the Igbo culture of the south-eastern part of Nigeria."
+          />
+          <meta name="keywords" content="Ahiajoku, sponsor Igbo culture, sponsor Igbo heritage, yam festival, Imo State, education, tradition"/>
             <title>Sponsor - Ahiajoku</title>
         </Helmet>
         <Nav/>

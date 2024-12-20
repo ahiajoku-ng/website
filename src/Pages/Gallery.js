@@ -42,6 +42,11 @@ function Gallery() {
   return (
     <div id='GalGal'>
         <Helmet>
+            <meta
+                name="description"
+                content="Images of Ahiajoku Convention Center in Owerri Imo State Nigeria, promoting the igbo culture and heritage."
+            />
+            <meta name="keywords" content="Ahiajoku, gallery, traditional images, Igbo culture, Igbo heritage, yam festival, Imo State, education, tradition"/>
             <title>Gallery - Ahiajoku</title>
         </Helmet>
         <Nav/>

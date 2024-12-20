@@ -14,6 +14,11 @@ function LectureSeries() {
   return (
     <div id='lectures'>
         <Helmet>
+        <meta
+          name="description"
+          content="Many lecture series from our past speaker/tutors who have properly taught on the Igbo culture including the yam festival."
+        />
+        <meta name="keywords" content="Ahiajoku lectures, Ahiajoku, Ahiajoku materials, books on Igbo culture, Igbo heritage, yam festival, Imo State, education, tradition"/>
           <title>Lecture series - Ahiajoku</title>
         </Helmet>
         <div id='lechd'>
